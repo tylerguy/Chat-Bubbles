@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+div[id^="message-"] {
+  margin: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.856);
+  font-family: "Roboto", sans-serif;
+  --r: 25px; /* the radius */
+  --t: 30px;
+  --_d: 100%; /* the size of the tail */
+  border-right: var(--t) solid #0000;
+  margin-left: var(--t);
+  max-width: 300px;
+  padding: calc(2 * var(--r) / 3);
+  mask: radial-gradient(var(--t) at var(--_d) 0, #0000 98%, #000 102%) var(--_d)
+      100% / calc(100% - var(--r)) var(--t) no-repeat,
+    conic-gradient(at var(--r) var(--r), #000 75%, #0000 0) calc(var(--r) / -2)
+      calc(var(--r) / -2) padding-box,
+    radial-gradient(50% 50%, #000 98%, #0000 101%) 0 0 / var(--r) var(--r) space
+      padding-box;
+  background: rgba(255, 255, 255, 0.8) border-box;
+}
+
+html {
+  background-color: transparent;
+}
