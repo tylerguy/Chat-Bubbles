@@ -10,4 +10,4 @@ Example:
 ![image](https://github.com/tylerguy/Chat-Bubbles/assets/18733966/fd3203e4-6151-4d69-a9f8-8c89037025d8)
 
 ### To-Add
-[  ] BTTV/Twitch Emote Support
+[  ] BTTV/Twitch Emote Support (#1)
