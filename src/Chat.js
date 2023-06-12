@@ -25,7 +25,7 @@ function Chat() {
       }, 5000);
     };
 
-    client.connect();
+    client.connect({});
 
     client.on("message", messageHandler);
 
