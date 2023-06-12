@@ -7,24 +7,23 @@ function UsernameForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate(`#/chat/${username}`);
-  };
-
-  const handleUsernameChange = (event) => {
-    setUsername(event.target.value);
+    navigate(`/chat/${username}`);
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="username-input">Username:</label>
-      <input
-        id="username-input"
-        type="text"
-        value={username}
-        onChange={handleUsernameChange}
-      />
-      <button type="submit">Join Chat</button>
-    </form>
+    <div id="username-form">
+      <form onSubmit={handleSubmit}>
+        <label id="username-label">
+          Enter your username:
+          <input
+            type="text"
+            value={username}
+            onChange={(event) => setUsername(event.target.value)}
+          />
+        </label>
+        <button type="submit">Enter Chat</button>
+      </form>
+    </div>
   );
 }
 
