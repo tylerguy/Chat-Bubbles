@@ -1,4 +1,4 @@
-[#1]: https://github.com/user/repo/issues/19
+[#1]: https://github.com/user/repo/issues/19](https://github.com/tylerguy/Chat-Bubbles/issues/1
 # Chat-Bubbles
 
 Allows for the display of twitch chat in chat bubbles within your stream, making use of tmi.js and react. 
