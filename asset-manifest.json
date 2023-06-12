@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Chat-Bubbles/static/css/main.e76d7da5.css",
-    "main.js": "/Chat-Bubbles/static/js/main.a2b7d776.js",
-    "static/js/787.f41f526e.chunk.js": "/Chat-Bubbles/static/js/787.f41f526e.chunk.js",
-    "index.html": "/Chat-Bubbles/index.html",
-    "main.e76d7da5.css.map": "/Chat-Bubbles/static/css/main.e76d7da5.css.map",
-    "main.a2b7d776.js.map": "/Chat-Bubbles/static/js/main.a2b7d776.js.map",
-    "787.f41f526e.chunk.js.map": "/Chat-Bubbles/static/js/787.f41f526e.chunk.js.map"
+    "main.css": "./static/css/main.e76d7da5.css",
+    "main.js": "./static/js/main.3d990a49.js",
+    "static/js/787.f41f526e.chunk.js": "./static/js/787.f41f526e.chunk.js",
+    "index.html": "./index.html",
+    "main.e76d7da5.css.map": "./static/css/main.e76d7da5.css.map",
+    "main.3d990a49.js.map": "./static/js/main.3d990a49.js.map",
+    "787.f41f526e.chunk.js.map": "./static/js/787.f41f526e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e76d7da5.css",
-    "static/js/main.a2b7d776.js"
+    "static/js/main.3d990a49.js"
   ]
 }
