@@ -7,7 +7,7 @@ function UsernameForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate(`/chat/${username}`);
+    navigate(`#/chat/${username}`);
   };
 
   const handleUsernameChange = (event) => {
