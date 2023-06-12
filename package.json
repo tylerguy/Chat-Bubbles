@@ -1,5 +1,9 @@
 {
-  "name": "virtual-terminal-react",
+  "name": "chat-bubbles",
+  "author": {
+    "name": "Tyler Guy",
+    "email": "tylerdenman200@gmail.com",
+  },
   "version": "0.1.0",
   "homepage": "https://tylerguy.github.io/Chat-Bubbles/",
   "private": true,
