@@ -7,4 +7,4 @@ Simply replace the {username} portion of this url https://tylerguy.github.io/Cha
 
 Example:
 
-![image](https://github.com/tylerguy/Chat-Bubbles/assets/18733966/57cdab47-9086-4163-9286-1dbd64979da8)
+![image](https://github.com/tylerguy/Chat-Bubbles/assets/18733966/fd3203e4-6151-4d69-a9f8-8c89037025d8)
