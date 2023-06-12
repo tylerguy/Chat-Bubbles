@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<UsernameForm />} />
-        <Route path="/chat/:username" element={<Chat />} />
+        <Route path="Chat-Bubbles/" element={<UsernameForm />} />
+        <Route path="Chat-Bubbles/chat/:username" element={<Chat />} />
       </Routes>
     </Router>
   );
