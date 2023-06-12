@@ -2,7 +2,7 @@
 
 Allows for the display of twitch chat in chat bubbles within your stream, making use of tmi.js and react. 
 
-Usage:
+# Usage:
 Simply replace the {username} portion of this url https://tylerguy.github.io/Chat-Bubbles/#/chat/{username} and add the page as a browser source in OBS
 
 Example:
