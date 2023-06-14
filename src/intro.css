@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.intro {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+.intro h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.intro img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.intro code {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.intro a {
+  color: white;
+}

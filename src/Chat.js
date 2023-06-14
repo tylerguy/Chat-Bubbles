@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import tmi from "tmi.js";
+import "./index.css";
 
 function Chat() {
   const [messages, setMessages] = useState([]);
@@ -35,7 +36,7 @@ function Chat() {
   }, [username]);
 
   return (
-    <div>
+    <div class="chat">
       <div>
         {messages.map((message, index) => (
           <div key={index} id={`message-${index}`}>
